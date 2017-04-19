@@ -8,6 +8,7 @@ import us.codecraft.tinyioc.beans.factory.BeanFactory;
 import java.util.List;
 
 /**
+ * 在实例化所有的 Bean 前，最先被实例化
  * @author yihua.huang@dianping.com
  */
 public class AspectJAwareAdvisorAutoProxyCreator implements BeanPostProcessor, BeanFactoryAware {
